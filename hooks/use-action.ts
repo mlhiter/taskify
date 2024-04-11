@@ -26,6 +26,7 @@ export const useAction = <TInput, TOutput>(
   const execute = useCallback(
     async (input: TInput) => {
       setIsLoading(true)
+
       try {
         const result = await action(input)
 
@@ -33,9 +34,9 @@ export const useAction = <TInput, TOutput>(
           return
         }
 
-        if (result.fieldErrors) {
-          setFieldErrors(result.fieldErrors)
-        }
+        // update error state
+        setFieldErrors(result.fieldErrors)
+
         if (result.error) {
           setError(result.error)
           options.onError?.(result.error)

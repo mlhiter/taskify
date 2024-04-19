@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Taskify
 
-## Getting Started
+Base in a tutorial project from antonio(I admire most),and it will go further.
 
-First, run the development server:
+![image-20240419140905378](https://raw.githubusercontent.com/mlhiter/typora-images/master/202404191409544.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![image-20240419140955737](https://raw.githubusercontent.com/mlhiter/typora-images/master/202404191409005.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image-20240419141340425](https://raw.githubusercontent.com/mlhiter/typora-images/master/202404191413830.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![image-20240419141358813](https://raw.githubusercontent.com/mlhiter/typora-images/master/202404191413344.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Key Feature:
 
-## Learn More
+- Clerk Authentication
+- List CRUD
+- Drag and Drop
+- List and Card Copy
+- Input Validation
 
-To learn more about Next.js, take a look at the following resources:
+### Technology stack：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- React、NextJS -> Basic framework
+- Tailwind CSS->CSS framework
+- Shadcn-ui->UI components library
+- Clerk->Authentication
+- Lucide-react->Icon sets
+- Sonner->Toast component
+- Zustand->State management solution
+- Prisma-> Database ORM
+- Stripe-> Paid
